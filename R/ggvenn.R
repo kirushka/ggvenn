@@ -93,7 +93,7 @@ ggvenn <- function(data, columns = NULL,
     scale_x_continuous(limits = c(-2, 2)) +
     scale_y_continuous(limits = c(-2, 2)) +
     scale_fill_manual(values = fill_color) +
-    guides(fill = FALSE) +
+    guides(fill = "none") +
     coord_fixed() +
     theme_void()
 }
